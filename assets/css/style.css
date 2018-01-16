@@ -5,62 +5,112 @@ body {
   color: #777;
   background: url("../images/backgroundZebra.png");
 }
-
+/*--header --*/
 .headerbar
 {
   background-color: #ffffff; 
 }
-
+.thename
+{
+  line-height: 65px;
+  font-family: Georgia, Times, "Times New Roman" , serif;
+  text-decoration: none;
+  background-color: #499995;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 5px;
+}
 .navig
 {
   padding-top: 30px;
+  color: #777;
 }
-
+/*-- end of header --*/
 .mainbody
 {
   margin: 100px 0px 100px 0px;
 }
 
+/* main bar and all its contents */
+.mainbar
+{
+  background-color: #ffffff;
+  margin: 10px;
+  border: 1px solid #dddddd;
+}
+.maincontainer
+{
+  margin: 10px;
+}
+.mainpoint
+{
+  margin: 20px 2px 0px 2px;
+  border-bottom: 2px solid #eee;
+}
+.mainpoint h2
+{
+  color: #499995;
+  font-size: 20px;
+  margin-bottom: 2px solid #eeeeee;
+}
+/*-----------------------------------*/
+
+/*side bar and all its contenats */
+.sidebar
+{
+  max-height: 300px;
+  background-color: #fff;
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+.sidecontainer
+{
+  margin: 10px;
+}
+.sidepoint
+{
+  margin: 20px 2px 0px 2px;
+  border-bottom: 2px solid #eee;
+}
+.sidepoint h3
+{
+  color: #499995;
+  font-size: 20px;
+  margin-bottom: 2px solid #eeeeee;
+}
+/*-----------------------------------*/
+
+
+
+.social
+{
+  width: 68px;
+  height: 68px;
+  margin-top: 20px;
+  border: 2px solid #000;
+}
+a
+{
+  text-decoration: none;
+}
+
+.project img
+{
+  height: 200px;
+  width: 200px;
+}
+
+.maincontent
+{
+  margin: 10px;
+}
+/*---- footer ----*/
 .footerbar
 {
   padding: 10px;
   text-align: center;
   border-top: 5px solid #499995;
   background-color: #666666;
-}
-
-.mainbar, .sidebar
-{
-  background-color: #ffffff;
-  margin: 10px;
-  border: 1px solid #dddddd;
-}
-
-.thename
-{
-  line-height: 80px;
-  background-color: #499995;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 50px;
-  padding: 10px 5px;
-}
-
-.mainpoint h2, .sidepoint h3
-{
-  color: #499995;
-  font-size: 20px;
-  margin-bottom: 2px solid #eeeeee;
-}
-
-.social
-{
-  width: 60px;
-  height: 60px;
-  margin-top: 20px;
-}
-a
-{
-  text-decoration: none;
 }
 
