@@ -21,23 +21,11 @@ body {
   font-weight: 600;
   color: #ffffff;
   font-size: 30px;
-<<<<<<< HEAD
-=======
-}
-.navig
-{
-  padding-top: 30px;
-  color: #777;
->>>>>>> 7cefd2236aec52ebe97215fe873990415ae49498
 }
 /*-- end of header --*/
 .mainbody
 {
-<<<<<<< HEAD
   margin: 100px 0px 100px 0px;
-=======
-  margin: 100px 10px 100px 10px;
->>>>>>> 7cefd2236aec52ebe97215fe873990415ae49498
   display: table;
 }
 
@@ -78,10 +66,7 @@ body {
   margin-top: 15px;
   border: 1px solid #ddd;
   min-width: 300px;
-<<<<<<< HEAD
   max-height: 200px;
-=======
->>>>>>> 7cefd2236aec52ebe97215fe873990415ae49498
 }
 .sidepoint
 {
@@ -117,7 +102,6 @@ body {
 .passage
 {
   float: left;
-<<<<<<< HEAD
 }
 /*-------------------------------------*/
 
@@ -145,12 +129,7 @@ body {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
-=======
->>>>>>> 7cefd2236aec52ebe97215fe873990415ae49498
 }
-/*-------------------------------------*/
-
-/*---FOR PORTFOLIO---*/
 
 .project img
 {
