@@ -12,6 +12,10 @@ body {
   padding-left: 5%;
   padding-right: 5%;
 }
+.nav-link
+{
+  color: #999;
+}
 .thename
 {
   line-height: 50px;
@@ -19,8 +23,12 @@ body {
   text-decoration: none;
   background-color: #4aaaa5;
   font-weight: 600;
-  color: #ffffff;
+  color: #fff;
   font-size: 30px;
+}
+.nav a
+{
+  border-left: 1px solid #efefef;
 }
 /*-- end of header --*/
 .mainbody
@@ -66,7 +74,7 @@ body {
   margin-top: 15px;
   border: 1px solid #ddd;
   min-width: 300px;
-  max-height: 200px;
+  max-height: 250px;
 }
 .sidepoint
 {
@@ -90,8 +98,14 @@ body {
   height: 60px;
 }
 
-/*-----------------------------------*/
-
+/*-------------------------------------*/
+/*--------FOR CONTACT------------------*/
+button[type=submit] 
+{
+  background-color: #4aaaa5;
+  padding: 10px;
+  margin-top: 5px;
+}
 /*--------FOR INDEX -------------------*/
 .myImage
 {
@@ -105,17 +119,13 @@ body {
 }
 /*-------------------------------------*/
 
-/*---FOR PORTFOLIO---*/
+/*--------FOR PORTFOLIO----------------*/
 .project {
   position: relative;
   float: left;
   width: 205px;
-  margin: 20px 0 25px;
+  margin: 20px 30px 25px 30px;
   overflow: auto;
-}
-
-.project:nth-child(even) {
-  margin-right: 20px;
 }
 .project p {
   position: absolute;
@@ -139,7 +149,7 @@ body {
 }
 /*--------------------------------------*/
 
-/*---- footer------------ ----*/
+/*---------footer-----------------------*/
 .footerbar
 {
   padding: 10px;
@@ -147,4 +157,4 @@ body {
   border-top: 8px solid #499995;
   background-color: #666666;
 }
-/*---------------------------------------*/
+/*--------------------------------------*/
