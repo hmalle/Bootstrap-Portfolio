@@ -9,82 +9,85 @@
 </head>
 
 <body>
-  <!--header-->
-  <div class="container everything">
-    <nav class="row fixed-top bg-light headerbar">
-      <div class="col-1"></div>
-      <div class="col-7">
-        <a href="index.html" class="thename">Hillary Malle</a>
-      </div>
-      <div class="col-4 navig">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-    <!--end of header-->
+  <div class="container-fluid everything">
+    <!--the header-->
+    <div class="row fixed-top headerbar">
+      <nav class="navbar navbar-expand navbar-light ">
+        <a class="navbar-brand thename" href="index.html">Hillary Malle</a>
+        <div class="navbar-collapse"> 
+          <ul class="nav justify-content-end">
+            <li class="nav-item"> 
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </div>
+      </nav>
+    </div> <!--end of header-->
 
     <!--main body-->
-    <div class="row mainbody">
-    <!--section with main stuff in it-->
-    <div class="col-1"></div>
-      <div class="col-6 mainbar">
-        <div class="container maincontainer">
-          <div class="row mainpoint">
-            <h2>Contact</h2>
-          </div>
-          <!--FORMS-->
-          <div class="row maincontent">
-            <div class="container formcontainer">
-              <form>
-                <div class="form-group">
-                  <label>Name</label>
-                  <input type="text" class="form-control" placeholder="John Smith">
-                </div>
-                <div class="form-group">
-                  <label>Email</label>
-                  <input type="email" class="form-control" placeholder="example@gmail.com">
-                </div>
-                <div class="form-group">
-                  <label>Message</label>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" rows="3"></textarea>
-                  <button type="submit" class="btn-default">Submit</button>
-                </div>
-              </form>
-            </div> <!--end of form container-->
-          </div><!--end of main content-->
-        </div> <!--end of maincontainer-->
-      </div> <!--end of mainbar-->
+    <div class="container  mainbody">
+      <!--containbars contains main section(mainbar) and aside(sectionbar)-->
+      <div class="row containbars"> 
+        <div class="col-md-6 mainbar">
+          <div class="container maincontainer">
+            <div class="row mainpoint">
+              <h2>Contact</h2>
+            </div>
+            <!--FORMS-->
+            <div class="row maincontent">
+              <div class="container formcontainer">
+                <form>
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="John Smith">
+                  </div>
+                  <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="example@gmail.com">
+                  </div>
+                  <div class="form-group">
+                    <label>Message</label>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" rows="3"></textarea>
+                    <button type="submit" class="btn-default">Submit</button>
+                  </div>
+                </form>
+              </div> <!--end of form container-->
+            </div><!--end of main content-->
+          </div> <!--end of maincontainer-->
+        </div> <!--end of mainbar-->
 
-      <!--sidebar with links and stuff-->
-      <div class="col-4 sidebar">
-        <div class="container sidecontainer">
-          <div class="row sidepoint">
-            <h3>Connect with me</h3>
-          </div>
+        <!--sidebar with links and stuff-->
+        <div class="col-md-3 sidebar">
+          <div class="container-fluid sidecontainer">
+            <div class="row sidepoint">
+              <h3>Connect with me</h3>
+            </div>
 
-          <div class="row sidecontent">
-            <div class="col-1"></div>
-            <div class="col-3">
-              <a href="https://www.github.com">
-                <img class="social" src="assets/images/githubLogo.png" alt="github.com">
-              </a>
-            </div>
-            <div class="col-3">
-              <a href="https://www.linkedin.com">
-                <img class="social" src="assets/images/linkedinLogo.png" alt="linkedin.com">
-              </a>
-            </div>
-            <div class="col-3">
-              <a href="https://stackoverflow.com">
-                <img class="social" src="assets/images/stackoverflowLogo.png" alt="stackoverflow.com">
-              </a>
-            </div>
-          </div><!--end of sidecontent-->
-        </div> <!--end of sidecontainer--> 
-      </div> <!--end of sidebar-->
+            <div class="row sidecontent">
+              <div class="container-fluid">
+                <div class="row allsocial">
+                  <a href="https://www.github.com">
+                    <img class="social" src="assets/images/githubLogo.png" alt="github.com">
+                  </a>
+                  <a href="https://www.linkedin.com">
+                    <img class="social" src="assets/images/linkedinLogo.png" alt="linkedin.com">
+                  </a>
+                  <a href="https://stackoverflow.com">
+                    <img class="social" src="assets/images/stackoverflowLogo.png" alt="stackoverflow.com">
+                  </a>
+                </div>
+              </div>
+            </div><!--end of sidecontent-->
+          </div> <!--end of sidecontainer--> 
+        </div> <!--end of sidebar-->
+      </div> <!--end of mainbar and sidebar container-->
     </div><!--end of main body-->
 
     <!--beginning of footer-->
