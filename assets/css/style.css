@@ -9,18 +9,18 @@ body {
 .headerbar
 {
   background-color: #ffffff; 
-  padding: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .thename
 {
-  line-height: 65px;
+  line-height: 50px;
   font-family: Georgia, Times, "Times New Roman" , serif;
   text-decoration: none;
-  background-color: #499995;
+  background-color: #4aaaa5;
   font-weight: 600;
   color: #ffffff;
   font-size: 30px;
-  padding: 30px 20px;
 }
 .navig
 {
@@ -30,15 +30,21 @@ body {
 /*-- end of header --*/
 .mainbody
 {
-  margin: 100px 0px 100px 0px;
+  margin: 100px 10px 100px 10px;
+  display: table;
 }
 
 /* main bar and all its contents */
+.containbars
+{
+  
+}
 .mainbar
 {
   background-color: #ffffff;
+  min-width: 500px;
   border: 1px solid #dddddd;
-  margin-top: 15px;
+  margin: 15px 20px 10px 20px;
 }
 .maincontainer
 {
@@ -55,19 +61,16 @@ body {
   font-size: 20px;
   margin-bottom: 2px solid #eeeeee;
 }
-.maincontent
-{
-  margin: 10px;
-}
+
 
 /*-----------------------------------*/
-/*side bar and all its contenats */
+/*side bar and all its contents */
 .sidebar
 {
-  max-height: 300px;
   background-color: #fff;
   margin-top: 15px;
   border: 1px solid #ddd;
+  min-width: 300px;
 }
 .sidepoint
 {
@@ -82,19 +85,18 @@ body {
 }
 .allsocial
 {
-  max-height: 100px;
   display: inline-block;
+  margin: 10px;
 }
 .social
 {
   width: 60px;
   height: 60px;
-  margin-top: 20px;
 }
 
 /*-----------------------------------*/
 
-/*--------for index -------------------*/
+/*--------FOR INDEX -------------------*/
 .myImage
 {
   width: 200px;
@@ -116,7 +118,7 @@ body {
 }
 /*--------------------------------------*/
 
-/*---- footer ----*/
+/*---- footer------------ ----*/
 .footerbar
 {
   padding: 10px;
@@ -124,4 +126,4 @@ body {
   border-top: 8px solid #499995;
   background-color: #666666;
 }
-
+/*---------------------------------------*/
