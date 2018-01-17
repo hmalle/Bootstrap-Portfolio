@@ -121,7 +121,11 @@ button[type=submit]
   position: relative;
   float: left;
   width: 205px;
+<<<<<<< HEAD
   margin: 20px 10px 25px 10px;
+=======
+  margin: 20px 30px 25px 30px;
+>>>>>>> 246a72596e20f0876218629ec7db02f924b7db8f
   overflow: auto;
 }
 .project p {
