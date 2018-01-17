@@ -109,9 +109,10 @@ button[type=submit]
   height: 200px;
   float: left;
 }
-.passage
+.aboutMe
 {
   float: left;
+  overflow: auto;
 }
 /*-------------------------------------*/
 
