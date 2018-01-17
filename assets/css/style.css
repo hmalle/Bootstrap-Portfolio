@@ -36,14 +36,16 @@ body {
   margin: 100px 0px 100px 0px;
   display: table;
 }
+
+/* main bar and all its contents */
 .containbars
 {
+  
 }
-/* main bar and all its contents */
 .mainbar
 {
   background-color: #ffffff;
-  min-width: 400px;
+  min-width: 500px;
   border: 1px solid #dddddd;
   margin: 15px 10px 10px 10px;
 }
@@ -58,10 +60,12 @@ body {
 }
 .mainpoint h2
 {
-  color: #4aaaa5;
+  color: #499995;
   font-size: 20px;
   margin-bottom: 2px solid #eeeeee;
 }
+
+
 /*-----------------------------------*/
 /*side bar and all its contents */
 .sidebar
@@ -79,7 +83,7 @@ body {
 }
 .sidepoint h3
 {
-  color: #4aaaa5;
+  color: #499995;
   font-size: 20px;
   margin-bottom: 2px solid #eeeeee;
 }
@@ -109,10 +113,9 @@ button[type=submit]
   height: 200px;
   float: left;
 }
-.aboutMe
+.passage
 {
   float: left;
-  overflow: auto;
 }
 /*-------------------------------------*/
 
@@ -121,7 +124,7 @@ button[type=submit]
   position: relative;
   float: left;
   width: 205px;
-  margin: 20px 10px 25px 10px;
+  margin: 20px 30px 25px 30px;
   overflow: auto;
 }
 .project p {
@@ -151,7 +154,7 @@ button[type=submit]
 {
   padding: 10px;
   text-align: center;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #499995;
   background-color: #666666;
 }
 /*--------------------------------------*/
