@@ -47,7 +47,7 @@ body {
   background-color: #ffffff;
   min-width: 500px;
   border: 1px solid #dddddd;
-  margin: 15px 20px 10px 20px;
+  margin: 15px 10px 10px 10px;
 }
 .maincontainer
 {
@@ -71,7 +71,7 @@ body {
 .sidebar
 {
   background-color: #fff;
-  margin-top: 15px;
+  margin: 15px 10px 10px 10px;
   border: 1px solid #ddd;
   min-width: 300px;
   max-height: 250px;
