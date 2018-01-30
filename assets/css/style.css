@@ -21,9 +21,9 @@ body {
   line-height: 50px;
   font-family: Georgia, Times, "Times New Roman" , serif;
   text-decoration: none;
-  background-color: #4aaaa5;
+  background: #4aaaa5;
   font-weight: 600;
-  color: #fff;
+  color: #ffffff;
   font-size: 30px;
 }
 .nav a
