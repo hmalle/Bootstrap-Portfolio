@@ -2,124 +2,37 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <title>Bootstrap Portfolio</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-  <div class="container everything">
-    <!--the header-->
-    <div class="row fixed-top headerbar">
-      <nav class="navbar navbar-expand navbar-light ">
-        <a class="navbar-brand thename" href="index.html">Hillary Malle</a>
-        <div class="navbar-collapse"> 
-          <ul class="nav d-flex justify-content-end">
-            <li class="nav-item"> 
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </div>
-      </nav>
-    </div> <!--end of header-->
-
-    <!-- body -->
-    <div class="container mainbody">
-      <!--section with main stuff in it-->
-      <div class="row containbars">
-        <div class="col-md-7 mainbar">
-          <div class="container maincontainer">
-            <div class="row mainpoint">
-              <h2>Portfolio</h2>
-            </div>
-
-            <!--main content--> 
-            <div class="row maincontent">
-              <!--TODO:make a div for each image-->
-              <div class="container containProjects">
-                  <a href="Hangman-Game">
-                    <div class="project">
-                      <img src="assets/images/hangman.jpg" alt="Hangman">
-                      <p>Hangman</p>
-                    </div>
-                  </a>
-                  <a href="week-4-game">
-                    <div class="project">
-                      <img src="assets/images/rpgGame.jpg" alt="RPG Game">
-                      <p>rpgGame</p>
-                    </div>
-                  </a>
-                  <a href="TriviaGame">
-                    <div class="project">
-                      <img src="assets/images/triviaGame.jpg" alt="Trivia Game">
-                      <p>Trivia Game</p>
-                    </div>
-                  </a>
-                  <a href="GifTastic">
-                    <div class="project">
-                      <img src="assets/images/rutgersInfoWidget.jpg" alt="Gif Tastic">
-                      <p>Gif Tastic</p>
-                    </div>
-                  </a>
-                  <a href="TrainScheduler">
-                    <div class="project">
-                      <img src="assets/images/rockPaperScissors.jpg" alt="Train Scheduler">
-                      <p>Train Scheduler</p>
-                    </div>
-                  </a>
-                  <a href="NovEx">
-                    <div class="project">
-                      <img src="http://lorempixel.com/200/200/sports" alt="NovEx">
-                      <p>NovEx</p>
-                    </div>
-                  </a>
-
-              </div> <!--end of containProjects-->
-            </div><!--end of maincontent-->
-          </div> <!--end of maincontainer-->
-        </div> <!--end of containbars-->
-
-        <!--sidebar with links and stuff-->
-        <div class="col-md-3 sidebar">
-          <div class="container sidecontainer">
-            <div class="row sidepoint">
-              <h3>Connect with me</h3>
-            </div>
-            <div class="row sidecontent">
-              <div class="container">
-                <div class="row allsocial">
-                  <a href="https://www.github.com">
-                    <img class="social" src="assets/images/githubLogo.png" alt="github.com">
-                  </a>
-                  <a href="https://www.linkedin.com">
-                    <img class="social" src="assets/images/linkedinLogo.png" alt="linkedin.com">
-                  </a>
-                  <a href="https://stackoverflow.com">
-                    <img class="social" src="assets/images/stackoverflowLogo.png" alt="stackoverflow.com">
-                  </a>
-                </div>
-              </div>
-            </div><!--end of sidecontent-->
-          </div> <!--end of sidecontainer--> 
-        </div> <!--end of sidebar-->
-      </div> <!--end of mainbar and sidebar container-->
-    </div><!--end of main body-->
-
-    <!--beginning of footer-->
-    <div class="row fixed-bottom footerbar">
-      <div class="col-12">
-          <p> &copy;Copyright 2018 Hillary Malle</p>
+  <div class="row head">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">HM</a>
       </div>
-    </div>
-    <!-- end of footer -->
-  </div><!--end of everything container-->
+      <div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
+  <div class="row thorax"></div>
+
+  <div class="row abdomen"></div>
+
+  <div class="row feet">
+    <p>&copy; Copyright 2018 Hillary Malle</p>
+  </div>
+ 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>

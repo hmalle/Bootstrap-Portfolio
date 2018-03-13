@@ -1,164 +1,39 @@
-html{
-  height: 100%;
-}
-body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 25px;
-  color: #777;
-  background: url("../images/binary.jpg");
-  background-size: 100% 100%;
-}
-/*--header --*/
-.headerbar
-{
-  background-color: #ffffff; 
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.nav-link
-{
-  color: #999;
-}
-.thename
-{
-  line-height: 50px;
-  font-family: Georgia, Times, "Times New Roman" , serif;
-  text-decoration: none;
-  background-color: #4aaaa5;
-  font-weight: 600;
+
+body{
   color: #fff;
-  font-size: 30px;
-}
-.nav a
-{
-  border-left: 1px solid #efefef;
-}
-/*-- end of header --*/
-.mainbody
-{
-  margin: 100px 0px 100px 0px;
-  display: table;
 }
 
-/* main bar and all its contents */
-.containbars
-{
-  
-}
-.mainbar
-{
-  background-color: #ffffff;
-  min-width: 500px;
-  border: 1px solid #dddddd;
-  margin: 15px 10px 10px 10px;
-}
-.maincontainer
-{
-  margin: 10px;
-}
-.mainpoint
-{
-  margin: 20px 2px 0px 2px;
-  border-bottom: 2px solid #eee;
-}
-.mainpoint h2
-{
-  color: #499995;
-  font-size: 20px;
-  margin-bottom: 2px solid #eeeeee;
-}
-
-
-/*-----------------------------------*/
-/*side bar and all its contents */
-.sidebar
-{
-  background-color: #fff;
-  margin: 15px 10px 10px 10px;
-  border: 1px solid #ddd;
-  min-width: 300px;
-  max-height: 250px;
-}
-.sidepoint
-{
-  margin: 20px 2px 0px 2px;
-  border-bottom: 2px solid #eee;
-}
-.sidepoint h3
-{
-  color: #499995;
-  font-size: 20px;
-  margin-bottom: 2px solid #eeeeee;
-}
-.allsocial
-{
-  display: inline-block;
-  margin: 10px;
-}
-.social
-{
-  width: 60px;
-  height: 60px;
-}
-
-/*-------------------------------------*/
-/*--------FOR CONTACT------------------*/
-button[type=submit] 
-{
-  background-color: #4aaaa5;
-  padding: 10px;
-  margin-top: 5px;
-}
-/*--------FOR INDEX -------------------*/
-.myImage
-{
-  width: 200px;
-  height: 200px;
-  float: left;
-}
-.passage
-{
-  float: left;
-}
-/*-------------------------------------*/
-
-/*--------FOR PORTFOLIO----------------*/
-.project {
-  position: relative;
-  float: left;
-  width: 205px;
-  margin: 20px 30px 25px 30px;
+/*---------------header ------------------------*/
+.head{
+  border: 2px solid #4c4c4c;
+  margin : 2px;
+  background-color: #323232;
   overflow: auto;
 }
-.project p {
-  position: absolute;
-  bottom: 20px;
-  width: 200px;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 30px;
-  color: #fff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
+
+.collapse{
+  float: right !important;
 }
 
-.project img
-{
-  height: 200px;
-  width: 200px;
-  opacity: 0.8;
+.thorax{
+  border: 2px solid #4c4c4c;
+  margin : 2px;
 }
-/*--------------------------------------*/
 
-/*---------footer-----------------------*/
-.footerbar
-{
-  padding: 10px;
-  text-align: center;
-  border-top: 8px solid #499995;
-  background-color: #666666;
+.abdomen{
+  border: 2px solid #4c4c4c;
+  margin : 2px;
 }
-/*--------------------------------------*/
+
+.feet{
+  margin: 2px;
+  text-align: center;
+  background-color: #323232;
+  height: 40px; /*TODO delete this */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border: 2px solid #4c4c4c;
+}
