@@ -1,8 +1,4 @@
 
-body{
-  color: #fff;
-}
-
 /*---------------header ------------------------*/
 .head{
   border: 2px solid #4c4c4c;
@@ -13,6 +9,20 @@ body{
 
 .navnav{
   width: 100%;
+}
+
+.navbar-brand{
+  color:#ccc;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.nav-item a{
+  color: #ccc;
+}
+
+#collapsible-nav{
+  
 }
 
 /*--------------thorax or will this merge into cephalothorax------------------*/
@@ -42,6 +52,7 @@ body{
 
 .copyrite{
   text-align:center;
+  color: #cccccc;
   width: 100%;
 }
 
