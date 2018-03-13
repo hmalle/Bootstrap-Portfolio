@@ -1,9 +1,13 @@
+html{
+  height: 100%;
+}
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 25px;
   color: #777;
-  background: url("../images/backgroundZebra.png");
+  background: url("../images/binary.jpg");
+  background-size: 100% 100%;
 }
 /*--header --*/
 .headerbar
