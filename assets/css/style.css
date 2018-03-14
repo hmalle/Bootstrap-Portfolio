@@ -1,4 +1,10 @@
 
+body{
+  font-family: 'Exo 2', sans-serif;
+  font-family: 'Cagliostro', sans-serif;
+  font-family: 'Play', sans-serif;
+}
+
 /*---------------header ------------------------*/
 .head{
   border: 2px solid #4c4c4c;
